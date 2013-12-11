@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Fibster</title>
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="author" content="PopoFibo" />
+  <script src="js/dialog.js"></script>
+<style>
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,blockquote,th,td {
+    margin:0;
+    padding:0;
+    font-family:Tahoma, Arial, Helvetica, sans-serif;
+}
+
+fieldset,img {
+    border:0;
+}
+
+html {
+    height:100%;
+    margin-bottom:1px;
+}
+
+body {
+    position:relative;
+}
+
+:focus {
+    outline:none;
+}
+
+/* links */
+a {
+    color:#FFF;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+/* header elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family:Tahoma, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    line-height:100%;
+    margin:0 0 15px 0;
+}
+
+h1 {
+    font-size:24px;
+    color:#F8B900;
+    letter-spacing:-1px;
+    text-shadow:#000 1px 1px 0;
+    margin:0;
+}
+
+h2 {
+    font-size:24px;
+    color:#F8B900;
+    letter-spacing:-1px;
+    text-shadow:#000 1px 1px 0;
+}
+
+h3 {
+    font-size:20px;
+    color:#F8B900;
+}
+
+h4 {
+    font-size:14px;
+    color:#F8B900;
+}
+
+h5 {
+    font-size:150%;
+    color:#F8B900;
+}
+
+h6 {
+    font-size:125%;
+    color:#F8B900;
+}
+
+/* page setup */
+body {
+    background:#080808 url(../images/background.jpg) 50% 0 no-repeat;
+    color:#666;
+    font-size:13px;
+    line-height:170%;
+    text-shadow:#000000 1px 1px 0;
+}
+
+/* wrapper setup */
+div.rapidxwpr {
+    margin:auto;
+    width:560px;
+    position:relative;
+}
+
+/* header */
+div#header {
+    height:52px;
+    padding:50px 0 0 0;
+}
+
+/* logo */
+div.logo {
+    background:url(../images/logo_bg.png) 0 0 no-repeat;
+    width:190px;
+    height:36px;
+    text-align:center;
+    padding:8px 0;
+}
+
+div.logo h1 {
+    margin:0;
+    text-transform:uppercase;
+}
+
+div.logo h1 a {
+    color:#F8B900;
+    text-decoration:none;
+}
+
+div.logo span.tagline {
+    font-size:11px;
+    text-shadow:#000 1px 1px 0;
+    display:block;
+    font-weight:normal;
+    margin:-5px 0 0 0;
+}
+
+/* main body setup */
+div#middle {
+    width:auto;
+    clear:both;
+    background:url(../images/page_bg_new.jpg);
+    padding:11px;
+    position:relative;
+    border:#555 1px solid;
+    height:auto;
+}
+
+div.middle_bg {
+    /*background:url(../images/content_bg.jpg) 0 0 no-repeat;*/
+    padding:25px 20px 25px 24px;
+    height:auto;
+    position:relative;
+    z-index:10;
+}
+
+/* left column */
+div#left {
+    width:200px;
+    float:left;
+}
+
+/* content column */
+div#main {
+    width:auto;
+    margin:0 0 0 200px;
+}
+
+/* footer */
+div#footer {
+    width:auto;
+    clear:both;
+    height:24px;
+    /*background:url(../images/footer_bg.png) 50% 0 no-repeat;*/
+    margin:-12px 0 50px 0;
+    text-align:center;
+	font-weight:bold;
+    color:#FFFFFF;
+    padding:15px 0 10px 0;
+    position:relative;
+    z-index:10;
+    line-height:130%;
+    font-size:11px;
+}
+
+/* content panels */
+div.tab_container {
+    height:auto;
+    overflow:hidden;
+    width:100%;
+}
+
+div.tab_content {
+    float:left;
+    margin:0 0 25px 0;
+}
+ </style>
+</head>
+
+<body>
+
+<!-- wrapper -->
+<div class="rapidxwpr">	
+
+  <!-- header -->
+  <div id="header">
+  
+    <!-- logo -->
+    <div class="logo">
+      <h1><a href="http://popofibo.com"target="_blank">Fibster</a></h1>
+      <span class="tagline">Movie Information from IMDB.com</span>
+    </div>
+    <!-- / logo -->
+  
+  </div>
+  <!-- / header -->
+  
+  <!-- main body -->
+  <div id="middle">
+    <div class="middle_bg">
+
+      <div class="tab_container">
+      
+        <div id="divId" class="tab_content">
+		<textarea style="display:none;" id="area"></textarea>
+          
+        </div>    
+      
+        </div>    
+      
+      </div>
+    </div>
+  </div>
+  <!-- / main body -->
+  
+  <!-- footer -->
+  <div id="footer">
+    Copyright &copy; 2013 www.popofibo.com<br />
+    <small>Chrome extension by <a href="http://popofibo.com">PopoFibo</a></small>.
+  </div>
+  <!-- / footer -->
+
+</div>
+<!-- / wrapper -->
+
+</body>
+</html>
