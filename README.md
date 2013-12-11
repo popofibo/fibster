@@ -6,7 +6,7 @@ Fibster Chrome Extension with IMDB API http://popofibo.com/pop/fibster-chrome-ex
 LICENSE SUMMARY
 ---------------
 
-Android Weather Application
+Fibster Chrome Extension with IMDB API
 Copyright (C) 2013 PopoFibo
 
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
